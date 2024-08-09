@@ -54,6 +54,8 @@
             UsePoint();
             UsePatams();
             UseParse();
+
+            Console.WriteLine("-----------------------------------------------------------------------");
         }
 
         static void UseParse()

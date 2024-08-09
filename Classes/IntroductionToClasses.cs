@@ -28,6 +28,8 @@
 
             var person = Person.Parse("Mykola");
             person.Introduce("Program");
+
+            Console.WriteLine("-----------------------------------------------------------------------");
         }
     }
 }
