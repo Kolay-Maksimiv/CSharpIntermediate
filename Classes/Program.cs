@@ -16,6 +16,9 @@
 
             //Fields
             Fields.FieldsProgram();
+
+            //Access Modifiers
+            AccessModifiers.AccessModifiersProgram();
         }
     }
 }

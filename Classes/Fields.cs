@@ -35,6 +35,8 @@
 
             customer.Promote();
             Console.WriteLine(customer.Orders.Count);
+
+            Console.WriteLine("-----------------------------------------------------------------------");
         }
     }
 }
