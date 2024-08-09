@@ -1,4 +1,6 @@
-﻿namespace Classes
+﻿using System;
+
+namespace Classes
 {
     public class Person
     {
@@ -6,7 +8,15 @@
 
         public void Introduce(string to)
         {
-            Console.WriteLine("Hi {0}, I am {1}", to, Name);
+            Console.WriteLine("Hi {0}, I am {1}.", to, Name);
+        }
+
+        public static Person Parse(string str)
+        {
+            var person = new Person();
+            person.Name = str;
+
+            return person;
         }
     }
 
@@ -14,8 +24,12 @@
     {
         static void Main(string[] args)
         {
-            var person = new Person();
-            person.Name = "John";
+            //var person = new Person();
+            //person.Name = "John";
+            //person.Introduce("Mosh");
+
+
+            var person = Person.Parse("John");
             person.Introduce("Mosh");
         }
     }
