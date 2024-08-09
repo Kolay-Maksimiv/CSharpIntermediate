@@ -1,18 +1,5 @@
 ﻿namespace Classes
 {
-    public static class IntroductionToClasses
-    {
-        public static void IntroductionToClassesProgram()
-        {
-            //var person = new Person();
-            //person.Name = "John";
-            //person.Introduce("Mosh");
-
-            var person = Person.Parse("John");
-            person.Introduce("Mosh");
-        }
-    }
-
     public class Person
     {
         public string Name;
@@ -28,6 +15,19 @@
             person.Name = str;
 
             return person;
+        }
+    }
+
+    public static class IntroductionToClasses
+    {
+        public static void IntroductionToClassesProgram()
+        {
+            //var person = new Person();
+            //person.Name = "Mykola";
+            //person.Introduce("Mosh");
+
+            var person = Person.Parse("Mykola");
+            person.Introduce("Program");
         }
     }
 }

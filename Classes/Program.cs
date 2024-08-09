@@ -6,7 +6,13 @@
         static void Main(string[] args)
         {
             //Introduction To Classes
-            IntroductionToClasses.IntroductionToClassesProgram();
+            //IntroductionToClasses.IntroductionToClassesProgram();
+
+            //Constructors
+            //Constructors.ConstructorsProgram();
+
+            //Methods
+            Methods.MethodsProgram();
         }
     }
 }
