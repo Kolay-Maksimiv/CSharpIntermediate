@@ -6,7 +6,6 @@
         public string Name;
         public List<Order> Orders;
 
-
         public Customer()
         {
             Orders = new List<Order>();

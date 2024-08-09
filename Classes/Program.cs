@@ -22,6 +22,9 @@
 
             //Properties
             Properties.PropertiesProgram();
+
+            //Indexers
+            Indexers.IndexersProgram();
         }
     }
 }
