@@ -19,6 +19,9 @@
 
             //Access Modifiers
             AccessModifiers.AccessModifiersProgram();
+
+            //Properties
+            Properties.PropertiesProgram();
         }
     }
 }
