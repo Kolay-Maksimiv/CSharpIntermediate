@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            //Access Modifiers
+            AccessModifiers.AccessModifiersProgram();
         }
     }
 }
