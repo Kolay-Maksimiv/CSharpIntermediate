@@ -36,6 +36,8 @@
             var goldCustomer = new GoldCustomer();
 
             goldCustomer.OfferVouchar();
+
+            Console.WriteLine("-----------------------------------------------------------------------");
         }
     }
 }
