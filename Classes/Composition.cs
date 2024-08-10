@@ -1,6 +1,6 @@
 ﻿namespace Classes
 {
-    public class Composition
+    public static class Composition
     {
         public class Logger
         {

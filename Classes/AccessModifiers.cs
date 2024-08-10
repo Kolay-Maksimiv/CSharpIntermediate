@@ -2,7 +2,7 @@
 {
     public static class AccessModifiers
     {
-        public class Person1
+        public class Person
         {
             private DateTime _birthdate;
 
@@ -19,7 +19,7 @@
 
         public static void AccessModifiersProgram()
         {
-            var person = new Person1();
+            var person = new Person();
 
             person.SetBirthdate(new DateTime(1999, 12, 16));
 

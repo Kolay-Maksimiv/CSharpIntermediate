@@ -3,11 +3,11 @@ namespace Classes
 {
     public static class Properties
     {
-        public class Persone2
+        public class Persone
         {
             public DateTime Birthdate { get; private set; }
 
-            public Persone2(DateTime birthdate)
+            public Persone(DateTime birthdate)
             {
                 Birthdate = birthdate;
             }
@@ -29,7 +29,7 @@ namespace Classes
             //var person = new Persone2();
             //person.Birthdate = new DateTime(1999, 12, 16);
 
-            var person = new Persone2(new DateTime(1999, 12, 16));
+            var person = new Persone(new DateTime(1999, 12, 16));
 
             Console.WriteLine(person.Age);
 

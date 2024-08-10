@@ -1,61 +1,52 @@
 ﻿namespace Classes
 {
-    public class Point
-    {
-        public int X;
-        public int Y;
-
-        public Point(int x, int y)
-        {
-            X = x;
-            Y = y;
-        }
-
-        public void Move(int x, int y)
-        {
-            X = x;
-            Y = y;
-        }
-
-        //public void Move(Point newLocation)
-        //{
-        //    X = newLocation.X;
-        //    Y = newLocation.Y;
-        //}
-
-        public void Move(Point newLocation)
-        {
-            if (newLocation == null)
-                throw new ArgumentNullException("newLocation");
-
-            Move(newLocation.X, newLocation.Y);
-        }
-    }
-
-    public class Calculator
-    {
-        public int Add(params int[] numbers)
-        {
-            var sum = 0;
-
-            foreach (var number in numbers)
-            {
-                sum += number;
-            }
-
-            return sum;
-        }
-    }
-
     public static class Methods
     {
-        public static void MethodsProgram()
+        public class Point
         {
-            UsePoint();
-            UsePatams();
-            UseParse();
+            public int X;
+            public int Y;
 
-            Console.WriteLine("-----------------------------------------------------------------------");
+            public Point(int x, int y)
+            {
+                X = x;
+                Y = y;
+            }
+
+            public void Move(int x, int y)
+            {
+                X = x;
+                Y = y;
+            }
+
+            //public void Move(Point newLocation)
+            //{
+            //    X = newLocation.X;
+            //    Y = newLocation.Y;
+            //}
+
+            public void Move(Point newLocation)
+            {
+                if (newLocation == null)
+                    throw new ArgumentNullException("newLocation");
+
+                Move(newLocation.X, newLocation.Y);
+            }
+        }
+
+        public class Calculator
+        {
+            public int Add(params int[] numbers)
+            {
+                var sum = 0;
+
+                foreach (var number in numbers)
+                {
+                    sum += number;
+                }
+
+                return sum;
+            }
         }
 
         static void UseParse()
@@ -108,6 +99,15 @@
             {
                 Console.WriteLine("An unexpected error occured.");
             }
+        }
+
+        public static void MethodsProgram()
+        {
+            UsePoint();
+            UsePatams();
+            UseParse();
+
+            Console.WriteLine("-----------------------------------------------------------------------");
         }
     }
 }
