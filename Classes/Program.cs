@@ -25,6 +25,9 @@
 
             //Indexers
             Indexers.IndexersProgram();
+
+            //Composition 
+            Composition.CompositionProgram();
         }
     }
 }
