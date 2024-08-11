@@ -9,6 +9,9 @@
 
             //Constructors
             Constructors.ConstructorsProgram();
+
+            //Upcasting And Downcasting
+            UpcastingAndDowncasting.UpcastingAndDowncastingProgram();
         }
     }
 }
