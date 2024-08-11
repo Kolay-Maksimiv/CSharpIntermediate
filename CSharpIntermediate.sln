@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{D8F3F130-0E57-448E-B1E7-8DC5325FCEFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability", "Testability\Testability.csproj", "{10F1B8C0-4A1E-4CDC-A234-D2025ED5570D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D8F3F130-0E57-448E-B1E7-8DC5325FCEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8F3F130-0E57-448E-B1E7-8DC5325FCEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8F3F130-0E57-448E-B1E7-8DC5325FCEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F1B8C0-4A1E-4CDC-A234-D2025ED5570D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F1B8C0-4A1E-4CDC-A234-D2025ED5570D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F1B8C0-4A1E-4CDC-A234-D2025ED5570D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F1B8C0-4A1E-4CDC-A234-D2025ED5570D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
