@@ -12,6 +12,9 @@
 
             //Interfaces are NOT for Multiple Inheritance
             MultipleInheritance.MultipleInheritanceProgram();
+
+            //Interfaces and Polymorphism
+            InterfacesAndPolymorphism.InterfacesAndPolymorphismProgram();
         }
     }
 }
