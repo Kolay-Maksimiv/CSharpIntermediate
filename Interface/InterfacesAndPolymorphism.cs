@@ -1,7 +1,4 @@
-﻿
-
-
-namespace Interface
+﻿namespace Interface
 {
     public static class InterfacesAndPolymorphism
     {
