@@ -6,6 +6,9 @@
         {
             //Interfaces and Testability
             InterfacesAndTestability.InterfacesAndTestabilityProgram();
+
+            //Interfaces And Extensibility
+            InterfacesAndExtensibility.InterfacesAndExtensibilityProgram();
         }
     }
 }
