@@ -79,6 +79,8 @@ namespace Interface
             var dbMigration = new DbMigrator(new FileLogger("C:\\Users\\kolay\\source\\repos\\CSharpIntermediate\\Interface\\log.txt"));
 
             dbMigration.Migrate();
+
+            Console.WriteLine("-----------------------------------------------------------------------");
         }
     }
 }

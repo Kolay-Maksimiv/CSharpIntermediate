@@ -9,6 +9,9 @@
 
             //Interfaces And Extensibility
             InterfacesAndExtensibility.InterfacesAndExtensibilityProgram();
+
+            //Interfaces are NOT for Multiple Inheritance
+            MultipleInheritance.MultipleInheritanceProgram();
         }
     }
 }
